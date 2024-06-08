@@ -63,20 +63,19 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4 text-black">Customer Service</h3>
             <ul className="space-y-2 text-[#336841]">
-              <li><Link href="/">Help Center</Link></li>
-              <li><Link href="/">Shipping and Delivery</Link></li>
-              <li><Link href="/">Question?</Link></li>
-              <li><Link href="/">Contact Us</Link></li>
+              <li><Link href="/helpcenter">Help Center</Link></li>
+              <li><Link href="/shipping&delivery">Shipping and Delivery</Link></li>
+              <li><Link href="/helpcenter">Question?</Link></li>
+              <li><Link href="/contact">Contact Us</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-4 text-black">GreenCartPH</h3>
             <ul className="space-y-2 text-[#336841]">
-            <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
-              <li><Link href="/">GreenCartPH Blog</Link></li>
-              <li><Link href="/">Privacy Policy</Link></li>
-              <li><Link href="/">Media Contract</Link></li>
-              <li><Link href="/">Intellectual Property Protection</Link></li>
+            <li><Link href="/termscondition">Terms & Conditions</Link></li>
+              <li><Link href="/blog">GreenCartPH Blog</Link></li>
+              <li><Link href="/privacypolicy">Privacy Policy</Link></li>
+              <li><Link href="/intellectual">Intellectual Property Protection</Link></li>
             </ul>
           </div>
           <div className="flex items-center space-x-4">
